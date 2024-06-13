@@ -1,0 +1,27 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+            "label": "build Debug",
+            "command": "dotnet",
+            "type": "process",
+            "args": [
+                "build",
+                "${workspaceFolder}/src/SamorodinkaTech.CaseTransmogrifier/SamorodinkaTech.CaseTransmogrifier.csproj"
+            ],
+            "problemMatcher": "$msCompile"
+        },
+		{
+            "label": "build Release",
+            "command": "dotnet",
+            "type": "process",
+            "args": [
+                "build",
+                "${workspaceFolder}/src/SamorodinkaTech.CaseTransmogrifier/SamorodinkaTech.CaseTransmogrifier.csproj",
+				"-c",
+                "Release"
+            ],
+            "problemMatcher": "$msCompile"
+        },
+	]
+}

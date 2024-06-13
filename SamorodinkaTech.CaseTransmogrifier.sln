@@ -1,0 +1,31 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 25.0.1706.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SamorodinkaTech.CaseTransmogrifier", "src\SamorodinkaTech.CaseTransmogrifier\SamorodinkaTech.CaseTransmogrifier.csproj", "{929CBD88-6E35-4C83-AAAC-F81346926D05}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SamorodinkaTech.CaseTransmogrifier.UnitTest", "tests\SamorodinkaTech.CaseTransmogrifier.UnitTest\SamorodinkaTech.CaseTransmogrifier.UnitTest.csproj", "{1E4B5D2A-43A8-4A09-99EF-4834EFD086CA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{929CBD88-6E35-4C83-AAAC-F81346926D05}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{929CBD88-6E35-4C83-AAAC-F81346926D05}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{929CBD88-6E35-4C83-AAAC-F81346926D05}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{929CBD88-6E35-4C83-AAAC-F81346926D05}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1E4B5D2A-43A8-4A09-99EF-4834EFD086CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E4B5D2A-43A8-4A09-99EF-4834EFD086CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1E4B5D2A-43A8-4A09-99EF-4834EFD086CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1E4B5D2A-43A8-4A09-99EF-4834EFD086CA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {700FAF46-857C-4337-B148-108C1DADFD28}
+	EndGlobalSection
+EndGlobal

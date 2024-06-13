@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageId>SamorodinkaTech.CaseTransmogrifier</PackageId>
+    <Version>1.0.2</Version>
+    <Authors>Eugene Arsenyuk</Authors>
+    <Description>CaseTransmogrifier is designed to give the string identifier a name according to the corresponding naming convention.
+.</Description>
+    <PackageTags>camel case;pascal case;kebab case;snake case;naming convention</PackageTags>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\..\README.md">
+        <Pack>True</Pack>
+        <PackagePath></PackagePath>
+  </None>
+  </ItemGroup>
+</Project>
