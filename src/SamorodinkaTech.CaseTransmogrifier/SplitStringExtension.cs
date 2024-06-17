@@ -18,7 +18,7 @@ namespace SamorodinkaTech.CaseTransmogrifier
         {
             if (string.IsNullOrEmpty(val))
             {
-                return Array.Empty<string>();
+                return new string[0];
             }
 
             var res = new StringBuilder();
@@ -135,7 +135,7 @@ namespace SamorodinkaTech.CaseTransmogrifier
             var res = new StringBuilder();
 
             if (string.IsNullOrEmpty(val))
-                return Array.Empty<string>();
+                return new string[0];
 
             var ch = val[val.Length - 1];
 
