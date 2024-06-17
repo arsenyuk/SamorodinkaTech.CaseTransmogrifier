@@ -43,7 +43,7 @@ Output result
 PaymentLimit
 ```
 
-### Converting an identifier to Snake case
+### Converting an identifier to snake case
 ```
 using SamorodinkaTech.CaseTransmogrifier;
 
